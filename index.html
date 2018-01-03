@@ -11,21 +11,23 @@
 
 <nav class="navbar navbar-dark bg-dark navbar-expand-md">
     <div class="container">
-        <a href="#" class="navbar-brand">Wisdom Pets</a>
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Missions</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Staff</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-        </ul>
+        <div class="navbar-header">
+            <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">Wisdom Pets</a>
+        </div>
 
-        <form role="search" class="form-inline">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-                <button type="button" class="btn btn-outline-primary ml-2 btn-dark">Go</button>
-            </div>
-        </form>
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Missions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Staff</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+            </ul>
+        </div>
 
     </div>
 </nav>
