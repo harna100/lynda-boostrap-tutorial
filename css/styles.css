@@ -32,9 +32,6 @@
     padding-right: 5px;
 }
 
-.content {
-    padding-top: 70px;
-}
 
 @media (max-width: 767px) {
     .img-fluid {
