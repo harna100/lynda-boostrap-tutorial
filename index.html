@@ -8,29 +8,52 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
-
     <div class="container">
         <div class="row">
             <section class="col-12">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label class="sr-only" for="inputEmail">Email Address</label>
-                        <input class="form-control" type="text" id="inputEmail" placeholder="Email">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="sr-only" for="inputPassword">Password</label>
-                        <input class="form-control" type="password" id="inputPassword" placeholder="Password">
-                    </div>
-
-                    <button class="btn btn-primary">Sign in</button>
-
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="rememberMe">
-                            <label class="form-check-label" for="rememberMe">Remember Me</label>
+                <form>
+                    <div class="form-group row">
+                        <label class="col-sm-1 col-form-label" for="inputName">Name</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="text" id="inputName" placeholder="Name">
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label class="col-sm-1 col-form-label" for="inputEmail">Email</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" type="text" id="inputEmail">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-1 col-form-label" for="selectSite">Site</label>
+                        <div class="col-sm-11">
+                            <select class="form-control" name="selectSite" id="selectSite">
+                                <option value="Choose...">Choose...</option>
+                                <option value="lynda.com">lynda.com</option>
+                                <option value="impaul.io">impaul.io</option>
+                                <option value="impaul.me">impaul.me</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-11 offset-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inputAddList">
+                                <label class="form-check-label" for="inputAddList">Add me to e-email list</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-1 col-form-label" for="inputComments">Comments</label>
+                        <div class="col-sm-11">
+                            <textarea class="form-control" id="inputComments"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary offset-1" type="submit">Submit</button>
 
                 </form>
             </section>
