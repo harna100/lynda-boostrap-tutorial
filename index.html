@@ -12,39 +12,46 @@
         <div class="row">
             <section class="col-12">
                 <form>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">$</div>
-                            </div>
-                            <input class="form-control" type="number" id="inputName" placeholder="Amount in dollars">
-                            <div class="input-group-append">
-                                <div class="input-group-text">.00</div>
+                    <fieldset disabled>
+                        <legend>Basic Info</legend>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input class="form-control" type="text" id="inputEmail" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="selectSite">Site</label>
+                            <select class="form-control" name="selectSite" id="selectSite">
+                                <option value="Choose...">Choose...</option>
+                                <option value="lynda.com">lynda.com</option>
+                                <option value="impaul.io">impaul.io</option>
+                                <option value="impaul.me">impaul.me</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend>Other Info</legend>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input class="form-control" type="text" id="inputName" placeholder="Paul" value="Paul" readonly>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inputAddList" disabled>
+                                <label class="form-check-label" for="inputAddList">Add me to e-email list</label>
                             </div>
                         </div>
-                    </div>
 
-                    <br>
-
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <input aria-label="customCheckbox" type="checkbox" id="customCheckbox" checked>
-                                </div>
-                            </div>
-                            <input class="form-control" type="text" id="customField" placeholder="Custom Option">
+                        <div class="form-group">
+                            <label for="inputComments">Comments</label>
+                            <textarea class="form-control" id="inputComments"></textarea>
                         </div>
-                    </div>
+                    </fieldset>
 
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search terms">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-primary">Go</button>
-                            </div>
-                        </div>
-                    </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+
                 </form>
             </section>
         </div>
