@@ -11,14 +11,44 @@
     <div class="container">
         <div class="row">
             <section class="col-12">
-                <p><span class="h1 d-none d-sm-inline-block">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi et id similique cumque consequatur ea minima quas, esse natus molestiae blanditiis laboriosam atque veritatis. Animi sapiente, ipsa! Cum, ad.</p>
-                <p><span class="h1 d-print-inline">Rerum</span> itaque ex distinctio, ullam facilis iste autem omnis fuga quod recusandae amet voluptates debitis maxime suscipit odit animi quisquam velit perspiciatis, non magni. Non, doloremque omnis nam eos esse.</p>
-                <p>Consequuntur obcaecati distinctio corporis molestias odio, ex repudiandae laborum, blanditiis ut aspernatur esse dolorem aliquam dolor architecto quos voluptas quas! Maxime impedit voluptatem ipsum, iusto provident nisi odio quod a?</p>
-                <p>Vero harum est, esse ex facilis voluptates sequi reprehenderit dolorem unde eveniet alias delectus, ipsa minus voluptatem, suscipit ea officiis! Placeat culpa ducimus dolorum assumenda. Laudantium ratione quos quis eligendi.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input class="form-control" type="text" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input class="form-control" type="text" id="inputEmail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="selectSite">Site</label>
+                        <select class="form-control" name="selectSite" id="selectSite">
+                            <option value="Choose...">Choose...</option>
+                            <option value="lynda.com">lynda.com</option>
+                            <option value="impaul.io">impaul.io</option>
+                            <option value="impaul.me">impaul.me</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="inputAddList">
+                            <label class="form-check-label" for="inputAddList">Add me to e-email list</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputComments">Comments</label>
+                        <textarea class="form-control" id="inputComments"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary float-right" type="submit">Submit</button>
+
+                </form>
             </section>
         </div>
     </div>
-
 
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.js"></script>
