@@ -13,6 +13,9 @@
 .services section {
     text-align: center;
 }
+.space{
+    width: 10px;
+}
 
 .imghead {
     background-image: url('../images/field_head.jpg');
