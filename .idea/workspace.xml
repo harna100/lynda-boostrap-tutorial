@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3985cd52-cd71-40d8-8d2b-b99c87c29c87" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/oldIndex11.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/oldIndex12.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,18 +30,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            <state relative-caret-position="330">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lyndaFiles/Ex_Files_Bs3EssT/Exercise Files/Ch04/04_04/bootstrap/index.html">
+        <entry file="file://$PROJECT_DIR$/lyndaFiles/Ex_Files_Bs3EssT/Exercise Files/Ch04/04_05/bootstrap/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,8 +67,8 @@
         <option value="$PROJECT_DIR$/oldIndex.html" />
         <option value="$PROJECT_DIR$/oldIndex7.html" />
         <option value="$PROJECT_DIR$/lyndaFiles/Ex_Files_Bs3EssT/Exercise Files/Ch03/03_06/bootstrap/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -153,7 +152,7 @@
               <item name="Ex_Files_Bs3EssT" type="462c0819:PsiDirectoryNode" />
               <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
               <item name="Ch04" type="462c0819:PsiDirectoryNode" />
-              <item name="04_04" type="462c0819:PsiDirectoryNode" />
+              <item name="04_05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyndaBoostrap" type="b2602c69:ProjectViewProjectNode" />
@@ -162,19 +161,8 @@
               <item name="Ex_Files_Bs3EssT" type="462c0819:PsiDirectoryNode" />
               <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
               <item name="Ch04" type="462c0819:PsiDirectoryNode" />
-              <item name="04_04" type="462c0819:PsiDirectoryNode" />
+              <item name="04_05" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyndaBoostrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyndaBoostrap" type="462c0819:PsiDirectoryNode" />
-              <item name="lyndaFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex_Files_Bs3EssT" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise Files" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch04" type="462c0819:PsiDirectoryNode" />
-              <item name="04_04" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,8 +184,8 @@
       <recent name="C:\Users\Paul\GoogleDrive\compSciCodes\lyndaBoostrap\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Paul\GoogleDrive\compSciCodes\lyndaBoostrap\images" />
       <recent name="C:\Users\Paul\GoogleDrive\compSciCodes\lyndaBoostrap" />
+      <recent name="C:\Users\Paul\GoogleDrive\compSciCodes\lyndaBoostrap\images" />
       <recent name="C:\Users\Paul\GoogleDrive\compSciCodes\lyndaBoostrap\js" />
     </key>
   </component>
@@ -234,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514930993517</updated>
-      <workItem from="1514930995310" duration="20584000" />
+      <workItem from="1514930995310" duration="21433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20584000" />
+    <option name="totallyTimeSpent" value="21433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -498,6 +486,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oldIndex12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -506,10 +502,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lyndaFiles/Ex_Files_Bs3EssT/Exercise Files/Ch04/04_05/bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="330">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding />
         </state>
       </provider>
