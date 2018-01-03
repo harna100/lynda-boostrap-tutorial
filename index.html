@@ -1,75 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
-<div class="container">
-    <div class="row">
-        <section class="col-12">
-            <h1>Inline Code</h1>
-            <p>To emphasize text, you can use the <code>&lt;em&gt;</code> tag.</p>
-
-            <h1>Control Keys</h1>
-            <p>To stop the execution of a process use <kbd>control-c</kbd> or <kbd>q</kbd></p>
-
-            <h1>Variables</h1>
-            <p><var>e</var> = <var>m</var><var>c</var>&sup2;</p>
-
-            <h1>Short Script</h1>
-            <pre>
-//replace IMG inside carousels with a background image
-$('#featured .item img').each(function() {
-  var imgSrc = $(this).attr('src');
-  $(this).parent().css({'background-image': 'url('+imgSrc+')'});
-  $(this).remove();
-});
-                </pre>
-            <h4>Sample Output</h4>
-            <samp>
-                &lt;div class=&quot;item active&quot; style=&quot;background-image: url(images/carousel-lifestyle.jpg);&quot;&gt;&lt;/div&gt;
-            </samp>
+    <div class="container">
+        <div class="row">
+            <section class="col-12">
+                <h1>Buttons</h1>
+                <a class="btn" href="#" role="button">Link</a>
+                <button class="btn" type="submit">Button</button>
+                <input class="btn" type="submit" value="Input">
 
 
-            <h1>Long Script</h1>
+                <h2>Types</h2>
+                <button class="btn">Default</button>
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-info">Info</button>
+                <button class="btn btn-warning">Warning</button>
+                <button class="btn btn-danger">Danger</button>
 
-            <pre class="pre-scrollable">
-//replace IMG inside carousels with a background image
-$('#featured .item img').each(function() {
-  var imgSrc = $(this).attr('src');
-  $(this).parent().css({'background-image': 'url('+imgSrc+')'});
-  $(this).remove();
-});
+                <h2>Contextual Classes</h2>
 
-//Use smooth scrolling when clicking on navigation
-$('.navbar a[href*=#]:not([href=#])').click(function() {
-  if (location.pathname.replace(/^\//,'') ===
-    this.pathname.replace(/^\//,'') &&
-    location.hostname === this.hostname) {
-    var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    if (target.length) {
-      $('html,body').animate({
-        scrollTop: target.offset().top-topoffset+2
-      }, 500);
-      return false;
-    } //target.length
-  } //click function
-}); //smooth scrolling
-
-                </pre>
+                <h2>Sizes</h2>
+                <button class="btn">Default</button>
+                <button class="btn btn-lg">Large</button>
+                <button class="btn btn-sm">Small</button>
+                <button class="btn btn-block">Block Level</button>
 
 
-        </section>
+                <h1>States</h1>
+
+                <h2>Active</h2>
+                <button class="btn active">Active Button</button>
+
+
+                <h2>Disabled</h2>
+                <button class="btn" disabled="disabled">Disabled Button</button>
+                <a href="#" class="btn disabled">Disabled Link Button</a>
+
+            </section>
+        </div>
     </div>
-</div>
 
 
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/script.js"></script>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </html>
