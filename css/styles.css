@@ -19,7 +19,14 @@
     background-position: bottom center;
     background-size: cover;
     height: 300px;
+}
 
+.form-inline {
+    text-align: center;
+}
+.form-inline .form-group {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 @media (max-width: 767px) {

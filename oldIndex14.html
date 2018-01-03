@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <div class="container">
+        <div class="row">
+            <section class="col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input class="form-control" type="text" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input class="form-control" type="text" id="inputEmail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="selectSite">Site</label>
+                        <select class="form-control" name="selectSite" id="selectSite">
+                            <option value="Choose...">Choose...</option>
+                            <option value="lynda.com">lynda.com</option>
+                            <option value="impaul.io">impaul.io</option>
+                            <option value="impaul.me">impaul.me</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="inputAddList">
+                            <label class="form-check-label" for="inputAddList">Add me to e-email list</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup1" id="radio1" value="option1" checked>
+                            <label class="form-check-label" for="radio1">Default Radio</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup1" id="radio2" value="option2">
+                            <label class="form-check-label" for="radio2">Second radio</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup1" id="radio3" value="option3" disabled>
+                            <label class="form-check-label" for="radio3">Disabled Radio</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-check-inline">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup2" id="radio4" value="option4" checked>
+                            <label class="form-check-label" for="radio1">Default Radio</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup2" id="radio5" value="option5">
+                            <label class="form-check-label" for="radio2">Second radio</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup2" id="radio6" value="option6" disabled>
+                            <label class="form-check-label" for="radio3">Disabled Radio</label>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="inputComments">Comments</label>
+                        <textarea class="form-control" id="inputComments"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary float-right" type="submit">Submit</button>
+
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</html>
