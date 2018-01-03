@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-    <h2>List</h2>
-    <ol class="list-unstyled">
-        <li>lore ispsum</li>
-        <li> lorem Lorem
-            <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-            </ul>
-        </li>
-        <li>More lorem text</li>
-    </ol>
+<div class="container">
+    <div class="row">
+        <section class="col-12">
+            <h1>Inline Code</h1>
+            <p>To emphasize text, you can use the <code>&lt;em&gt;</code> tag.</p>
 
-    <h2>Another list</h2>
-    <ul class="list-inline">
-        <li class="list-inline-item">lorem</li>
-        <li class="list-inline-item">ipsum</li>
-        <li class="list-inline-item">quasi</li>
-    </ul>
+            <h1>Control Keys</h1>
+            <p>To stop the execution of a process use <kbd>control-c</kbd> or <kbd>q</kbd></p>
 
-    <h2>Definitions</h2>
-    <dl>
-        <dt>Lorem</dt>
-        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at commodi consequuntur ducimus enim eos incidunt minima nisi provident quae qui, saepe sequi tenetur velit vitae! Eos in nulla voluptatibus?</dd>
-        <dt>Sed</dt>
-        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur atque, blanditiis delectus doloribus est ex, expedita fugiat molestias nobis odit officia officiis quas quod recusandae sapiente similique tempore veniam.</dd>
-        <dt>Quia</dt>
-        <dd>lorem</dd>
-    </dl>
+            <h1>Variables</h1>
+            <p><var>e</var> = <var>m</var><var>c</var>&sup2;</p>
+
+            <h1>Short Script</h1>
+            <pre>
+//replace IMG inside carousels with a background image
+$('#featured .item img').each(function() {
+  var imgSrc = $(this).attr('src');
+  $(this).parent().css({'background-image': 'url('+imgSrc+')'});
+  $(this).remove();
+});
+                </pre>
+            <h4>Sample Output</h4>
+            <samp>
+                &lt;div class=&quot;item active&quot; style=&quot;background-image: url(images/carousel-lifestyle.jpg);&quot;&gt;&lt;/div&gt;
+            </samp>
 
 
+            <h1>Long Script</h1>
 
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"></script>
+            <pre class="pre-scrollable">
+//replace IMG inside carousels with a background image
+$('#featured .item img').each(function() {
+  var imgSrc = $(this).attr('src');
+  $(this).parent().css({'background-image': 'url('+imgSrc+')'});
+  $(this).remove();
+});
+
+//Use smooth scrolling when clicking on navigation
+$('.navbar a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') ===
+    this.pathname.replace(/^\//,'') &&
+    location.hostname === this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top-topoffset+2
+      }, 500);
+      return false;
+    } //target.length
+  } //click function
+}); //smooth scrolling
+
+                </pre>
+
+
+        </section>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
 </html>
